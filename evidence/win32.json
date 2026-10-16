@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "kind": "installed-cli-smoke",
+  "result": "PASS",
+  "checkedAt": "2026-10-16T12:49:51.748Z",
+  "candidate": {
+    "sha256": "69019d05556de60002703131e0a202b0e105c0801c560718d1f9e7bfe039a895",
+    "variant": "fygo",
+    "packageName": "@fygonas-labs/fygo-cli",
+    "commandName": "fygo-cli",
+    "skillName": "fygo-cli",
+    "locale": "en",
+    "repository": "fygonas-labs/fygo-cli-skill",
+    "version": "0.4.0",
+    "sourceCommit": "0a474862e0fb290407183efea73f4f21259f2857",
+    "sourceSha256": "85d47e4e65950ec47e5b37585cd5ca949629183890b5052d067d03ce216c19bc",
+    "mode": "tagged",
+    "sourceTag": "v0.4.0",
+    "assets": [
+      {
+        "name": "fygonas-labs-fygo-cli-0.4.0.tgz",
+        "sha256": "5f8d371e31469fc4b0b0d518f72d06d72d3bed0fe927dfa870e2e9ea427a201a"
+      },
+      {
+        "name": "fygo-skill.zip",
+        "sha256": "00170a6cf7ba907b6aa76243e1d0f25ab6d57df6845cd6dcc3939ac2f7ed42f5"
+      }
+    ]
+  },
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "machine": "x86_64",
+    "release": "10.0.26200",
+    "node": "v24.21.0",
+    "npm": "11.19.0",
+    "tools": {
+      "node": "C:\\nvm4w\\nodejs\\node.exe",
+      "npm": "C:\\nvm4w\\nodejs\\npm.cmd",
+      "unzip": "C:\\Program Files\\Git\\usr\\bin\\unzip.exe"
+    }
+  },
+  "ci": {
+    "pipelineId": "11036",
+    "jobId": "34387",
+    "runnerId": "42",
+    "runnerArchitecture": "windows/amd64",
+    "commit": "0a474862e0fb290407183efea73f4f21259f2857"
+  },
+  "checks": [
+    "installed-shim-version",
+    "installed-shim-help",
+    "installed-skill",
+    "product-boundary",
+    "native-version-source"
+  ],
+  "notVerified": [
+    "NAS/device operations",
+    "OAuth authorization",
+    "npm registry installation",
+    "other CPU architectures"
+  ]
+}

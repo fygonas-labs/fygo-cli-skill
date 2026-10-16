@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "variant": "fygo",
+  "packageName": "@fygonas-labs/fygo-cli",
+  "commandName": "fygo-cli",
+  "repository": "fygonas-labs/fygo-cli-skill",
+  "version": "0.4.0",
+  "tag": "v0.4.0",
+  "sourceCommit": "0a474862e0fb290407183efea73f4f21259f2857",
+  "evidenceSha256": {
+    "candidate.json": "69019d05556de60002703131e0a202b0e105c0801c560718d1f9e7bfe039a895",
+    "gate.json": "c52436d8fd2317788b5c3981ef09b5b50fa501acd6618aacae99d12cb4b93c66",
+    "darwin.json": "2612746282e7db4f491ff691626f74dc493e1b9354394f47a0eedf9678970f88",
+    "linux.json": "16f192b0f31d0878e8295aeb805d383a9a665d4089cdfa6e46484ce4bb668bc4",
+    "win32.json": "e0b96c1e3edcd1ff815ac3e665f84845fd052b5f88a99155db65f63b1c8305cf"
+  },
+  "bridgeManifestSha256": "daf670e925c173c1c626f67b38157eb2d3d857a346cf2ddc7da0428570e738c4",
+  "assets": [
+    {
+      "name": "fygonas-labs-fygo-cli-0.4.0.tgz",
+      "sha256": "5f8d371e31469fc4b0b0d518f72d06d72d3bed0fe927dfa870e2e9ea427a201a"
+    },
+    {
+      "name": "fygo-skill.zip",
+      "sha256": "00170a6cf7ba907b6aa76243e1d0f25ab6d57df6845cd6dcc3939ac2f7ed42f5"
+    }
+  ]
+}
