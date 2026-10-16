@@ -6,20 +6,20 @@
   "skillName": "fygo-cli",
   "locale": "en",
   "repository": "fygonas-labs/fygo-cli-skill",
-  "version": "0.4.0",
-  "sourceCommit": "0a474862e0fb290407183efea73f4f21259f2857",
-  "sourceSha256": "85d47e4e65950ec47e5b37585cd5ca949629183890b5052d067d03ce216c19bc",
-  "sourceTag": "v0.4.0",
+  "version": "0.4.1",
+  "sourceCommit": "38e09360612985e47ccd590a5c0fa2fc5ccd9e22",
+  "sourceSha256": "da32260c74a2318367e105f75c755de92f8e6cb22c3dee1300ac32c5bc3f2bfd",
+  "sourceTag": "v0.4.1",
   "mode": "tagged",
   "publication": "not published; downstream acceptance and publication gates still required",
   "assets": [
     {
-      "name": "fygonas-labs-fygo-cli-0.4.0.tgz",
-      "sha256": "5f8d371e31469fc4b0b0d518f72d06d72d3bed0fe927dfa870e2e9ea427a201a"
+      "name": "fygonas-labs-fygo-cli-0.4.1.tgz",
+      "sha256": "2c704f4f1acc1bcc41b85e674443bc5ab8ed6054fe5fb9288c770085193b3b01"
     },
     {
       "name": "fygo-skill.zip",
-      "sha256": "00170a6cf7ba907b6aa76243e1d0f25ab6d57df6845cd6dcc3939ac2f7ed42f5"
+      "sha256": "e2dbb5a94cd05a4644553b4b0b345ab81dcc33abb611f7b1f28c0e9c0080a1e1"
     }
   ],
   "publicFiles": [
@@ -33,7 +33,7 @@
     },
     {
       "name": "THIRD_PARTY_NOTICES.txt",
-      "sha256": "0a5c6fb8c7d824b6b3dfc683b96f0e28a39bd493ec29512f52461fc583caf76c"
+      "sha256": "6560c5a1462530ce63d24b9aec26706679b1ecf6433823cb6cde25295fe30a37"
     },
     {
       "name": "skills/fygo-cli/LICENSE",
@@ -41,11 +41,11 @@
     },
     {
       "name": "skills/fygo-cli/SKILL.md",
-      "sha256": "0bbffbc9c07f2b159b458218c8f49ff743e74cc26e2a283dab4e5e7ff429be75"
+      "sha256": "825cbc7aaecbb0fe88c9e59424794d3144e0f8dc1dc35c0f30eedb95a96900b6"
     },
     {
       "name": "skills/fygo-cli/THIRD_PARTY_NOTICES.txt",
-      "sha256": "0a5c6fb8c7d824b6b3dfc683b96f0e28a39bd493ec29512f52461fc583caf76c"
+      "sha256": "6560c5a1462530ce63d24b9aec26706679b1ecf6433823cb6cde25295fe30a37"
     },
     {
       "name": "skills/fygo-cli/entries/trim-app.md",
@@ -176,5 +176,5 @@
       "sha256": "9eb0b0acd88578d0e83d952b50b9da6d02849001fe9a8e33862ab94a58345a1e"
     }
   ],
-  "reportSha256": "fd3e76c441aa9b4775973b75962ecfc6b4c4fe2faefc685ebdb7140dd3ae2190"
+  "reportSha256": "9dd762f82e71ad3c6d18ae6081a942d547be111c65b47b0dbf1b7296bf35901a"
 }

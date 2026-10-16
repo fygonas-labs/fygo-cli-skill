@@ -1,6 +1,6 @@
 ---
 name: fygo-cli
-description: Use fygo-cli to authorize and manage Fygo devices: files, photos, applications, Docker, downloads, logs, monitoring, networking, storage, and users. Use for Fygo or international-edition devices. Media APIs and mainland-only services are excluded.
+description: "Use fygo-cli to authorize and manage Fygo devices: files, photos, applications, Docker, downloads, logs, monitoring, networking, storage, and users. Use for Fygo or international-edition devices. Media APIs and mainland-only services are excluded."
 ---
 
 # Fygo

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.0",
+  "version": "0.4.1",
   "files": [
     {
       "path": ".gitignore",
@@ -12,7 +12,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "6f58c2bb9ef483511670a73c88b1f8d5ba7950e671d57f447753d91ed33f3fad"
+      "sha256": "29f316059895821aecd68375ec150591401c78bfc0715f91b681067942af7500"
     },
     {
       "path": "README.md",
@@ -152,15 +152,15 @@
     },
     {
       "path": "skills/fygo-cli/SKILL.md",
-      "sha256": "0bbffbc9c07f2b159b458218c8f49ff743e74cc26e2a283dab4e5e7ff429be75"
+      "sha256": "825cbc7aaecbb0fe88c9e59424794d3144e0f8dc1dc35c0f30eedb95a96900b6"
     },
     {
       "path": "skills/fygo-cli/THIRD_PARTY_NOTICES.txt",
-      "sha256": "0a5c6fb8c7d824b6b3dfc683b96f0e28a39bd493ec29512f52461fc583caf76c"
+      "sha256": "6560c5a1462530ce63d24b9aec26706679b1ecf6433823cb6cde25295fe30a37"
     },
     {
       "path": "THIRD_PARTY_NOTICES.txt",
-      "sha256": "0a5c6fb8c7d824b6b3dfc683b96f0e28a39bd493ec29512f52461fc583caf76c"
+      "sha256": "6560c5a1462530ce63d24b9aec26706679b1ecf6433823cb6cde25295fe30a37"
     }
   ]
 }
