@@ -5,20 +5,17 @@ description: "Use fygo-cli to authorize and manage Fygo devices: files, photos, 
 
 # Fygo
 
-## CLI setup
-
-Requires Node.js 18+. Install or explicitly upgrade the CLI:
-
-```bash
-npm install -g @fygonas-labs/fygo-cli@latest
-fygo-cli --version
-```
-
-Without a global installation, replace `fygo-cli` with `npx -y --package=@fygonas-labs/fygo-cli@latest fygo-cli`. Check the relevant `--help` before execution. During npm processing, `latest` may still select the previous release; existing installations never update automatically. Installing a Skill does not install the CLI or sign in. Follow the authorization flow below: the Agent generates a link, the user authorizes in their browser and explicitly returns the one-time code.
-
-
 Manage devices with `fygo-cli`. Installation and upgrades are explicit; check the installed version and command help before use.
 
+<!-- standalone:start -->
+## Standalone Skill launcher
+
+Resolve `scripts/fygo-cli` (macOS/Linux) or `scripts/fygo-cli.cmd` (Windows) from the loaded Skill directory and use its absolute path. Replace the `fygo-cli` prefix in Skill examples with that path, preserving each argument and its quoting. Run `--version` and the relevant `--help` first.
+
+First execution automatically downloads one fixed-version CLI for this host; progress goes to stderr and later calls reuse the current user's cache. Standalone execution needs no Node/npm or global CLI. macOS/Linux require system curl, gzip, a SHA-256 tool (sha256sum or shasum), and standard shell utilities. For download failures, damaged caches or mirror configuration, read [first-use guidance](runtime-setup.md), follow its recovery steps and retry the original command. Skill updates are explicit; existing entries never upgrade themselves.
+
+On Windows, call `scripts/fygo-cli.ps1` from PowerShell 5.1 or 7; the `.cmd` entry uses system Windows PowerShell. Quote arguments for the active shell; single quotes are recommended for JSON in PowerShell. Windows downloads and decompresses with system .NET and needs no Unix utilities. If PowerShell is missing or execution policy blocks the script, resolve the local environment issue and retry the same entry.
+<!-- standalone:end -->
 
 ## Authorization and connections
 

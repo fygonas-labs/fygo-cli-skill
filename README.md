@@ -8,17 +8,13 @@ Usage guidance and public integration content for Fygo. The runtime CLI and Skil
 npx skills add fygonas-labs/fygo-cli-skill --skill fygo-cli -g
 ```
 
-## Install or upgrade the CLI
+## Standalone Skill launcher
 
-Requires Node.js 18+. Install or upgrade explicitly:
+Resolve `scripts/fygo-cli` (macOS/Linux) or `scripts/fygo-cli.cmd` (Windows) from the loaded Skill directory and use its absolute path. Replace the `fygo-cli` prefix in Skill examples with that path, preserving each argument and its quoting. Run `--version` and the relevant `--help` first.
 
-```bash
-npm install -g @fygonas-labs/fygo-cli@latest
-fygo-cli --version
-fygo-cli --help
-```
+First execution automatically downloads one fixed-version CLI for this host; progress goes to stderr and later calls reuse the current user's cache. Standalone execution needs no Node/npm or global CLI. macOS/Linux require system curl, gzip, a SHA-256 tool (sha256sum or shasum), and standard shell utilities. For download failures, damaged caches or mirror configuration, read [first-use guidance](skills/fygo-cli/runtime-setup.md), follow its recovery steps and retry the original command. Skill updates are explicit; existing entries never upgrade themselves.
 
-During publication processing, `latest` may still point to an older release; installed copies never update automatically. Installing a Skill does not install the CLI or sign in. Product state is independent and this release requires fresh authorization; old credentials remain untouched and are neither read nor migrated.
+On Windows, call `scripts/fygo-cli.ps1` from PowerShell 5.1 or 7; the `.cmd` entry uses system Windows PowerShell. Quote arguments for the active shell; single quotes are recommended for JSON in PowerShell. Windows downloads and decompresses with system .NET and needs no Unix utilities. If PowerShell is missing or execution policy blocks the script, resolve the local environment issue and retry the same entry.
 
 ## Authorize and use
 
