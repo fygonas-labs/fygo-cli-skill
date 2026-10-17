@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.1",
+  "version": "0.5.0",
   "files": [
     {
       "path": ".gitignore",
@@ -12,11 +12,11 @@
     },
     {
       "path": "package.json",
-      "sha256": "29f316059895821aecd68375ec150591401c78bfc0715f91b681067942af7500"
+      "sha256": "cf17e201faa205701125ef68e16d39d40e8fec58c7e992f98a1e389e5a080908"
     },
     {
       "path": "README.md",
-      "sha256": "107a955603483e87d766d7093e7b9e6ea5855a781159ed1388f68b1f8fc4a566"
+      "sha256": "c5aa370a56f9b4827572913802fc71c8b32ffc1c7f07f3689907218f6536f7ac"
     },
     {
       "path": "skills/fygo-cli/entries/trim-app.md",
@@ -151,16 +151,36 @@
       "sha256": "9eb0b0acd88578d0e83d952b50b9da6d02849001fe9a8e33862ab94a58345a1e"
     },
     {
+      "path": "skills/fygo-cli/runtime-manifest.json",
+      "sha256": "747cf26d1c7346ef8915577166f243e0cff53ea421d33f074a27405d0bc904fd"
+    },
+    {
+      "path": "skills/fygo-cli/runtime-setup.md",
+      "sha256": "ec612c619afa3d309bea4e38fa58638675cca88aef9c5c58e5d50c0716d63f74"
+    },
+    {
+      "path": "skills/fygo-cli/scripts/fygo-cli",
+      "sha256": "2cc4da71d47d4895d39d3cf6e4a2534fd6c324450a87e7b9698766783c67c3f3"
+    },
+    {
+      "path": "skills/fygo-cli/scripts/fygo-cli.cmd",
+      "sha256": "f8af9f65b8e304ed995d3126016de04a40711e528db3b8b5c670b769e9c17547"
+    },
+    {
+      "path": "skills/fygo-cli/scripts/fygo-cli.ps1",
+      "sha256": "9ddab14aff7694440aff502dc0f44310d592cf5037089f0e24ca95c187bb3ead"
+    },
+    {
       "path": "skills/fygo-cli/SKILL.md",
-      "sha256": "825cbc7aaecbb0fe88c9e59424794d3144e0f8dc1dc35c0f30eedb95a96900b6"
+      "sha256": "fbe52305bfd4c35ac593f914ab092529b01472927a9faf61c35bd31fcbbfee82"
     },
     {
       "path": "skills/fygo-cli/THIRD_PARTY_NOTICES.txt",
-      "sha256": "6560c5a1462530ce63d24b9aec26706679b1ecf6433823cb6cde25295fe30a37"
+      "sha256": "3de3b3a26661a6c592d739b26510a4353df31fd57e77382837aa660f984f5edd"
     },
     {
       "path": "THIRD_PARTY_NOTICES.txt",
-      "sha256": "6560c5a1462530ce63d24b9aec26706679b1ecf6433823cb6cde25295fe30a37"
+      "sha256": "3de3b3a26661a6c592d739b26510a4353df31fd57e77382837aa660f984f5edd"
     }
   ]
 }
