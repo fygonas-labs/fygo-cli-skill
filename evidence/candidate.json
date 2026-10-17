@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "variant": "fygo",
+  "packageName": "@fygonas-labs/fygo-cli",
+  "commandName": "fygo-cli",
+  "skillName": "fygo-cli",
+  "locale": "en",
+  "repository": "fygonas-labs/fygo-cli-skill",
+  "version": "0.5.0",
+  "sourceCommit": "1443bee208283a0ebd025a86b4e5b53a11f715ae",
+  "sourceSha256": "53829e556e9abcc84a074bfaa6100579d40927f2520af2e73826d170820518a7",
+  "sourceTag": "v0.5.0",
+  "mode": "tagged",
+  "publication": "not published; downstream acceptance and publication gates still required",
+  "assets": [
+    {
+      "name": "fygonas-labs-fygo-cli-0.5.0.tgz",
+      "sha256": "2bbef303e7273177cf9cc71130fc5832c32178074c0ab51a72c006549fd52fbb"
+    },
+    {
+      "name": "fygo-skill.zip",
+      "sha256": "500bd287f34630f568fb17eb35d992c6919032414c1549ea1986e055a5f6c0dc"
+    },
+    {
+      "name": "fygo-cli-0.5.0-darwin-arm64.gz",
+      "sha256": "e2221508374e871a510c56c8bd2ec31b2f367904d54e92058df87b95c279bafb"
+    },
+    {
+      "name": "fygo-cli-0.5.0-darwin-x64.gz",
+      "sha256": "d26b84ed4aad17c74ce17ac0222a7dd8b63352477982898e8f93cf896e22fd8a"
+    },
+    {
+      "name": "fygo-cli-0.5.0-linux-arm64.gz",
+      "sha256": "209889e20c240fe0a917fdc66b63d358ebf46460fba83b7804b9f5ad08eab524"
+    },
+    {
+      "name": "fygo-cli-0.5.0-linux-x64.gz",
+      "sha256": "67a5c9059d06a2870783ecfbaf4f75c8229ddf0bfee39aec3e16e63982c823f1"
+    },
+    {
+      "name": "fygo-cli-0.5.0-windows-arm64.gz",
+      "sha256": "31c562439bedbcf517c0018002086ff24adc1a2b88416e43243c87607c556b98"
+    },
+    {
+      "name": "fygo-cli-0.5.0-windows-x64.gz",
+      "sha256": "aaef2aa1b761d0209830849a8294838182745e546794d7ae05f20596965d5200"
+    }
+  ],
+  "publicFiles": [
+    {
+      "name": "LICENSE",
+      "sha256": "36159a5adc36108c13ce7987ffaf934eecddb4a3f50fef50b73103e7f3331515"
+    },
+    {
+      "name": "README.md",
+      "sha256": "c5aa370a56f9b4827572913802fc71c8b32ffc1c7f07f3689907218f6536f7ac"
+    },
+    {
+      "name": "THIRD_PARTY_NOTICES.txt",
+      "sha256": "3de3b3a26661a6c592d739b26510a4353df31fd57e77382837aa660f984f5edd"
+    },
+    {
+      "name": "skills/fygo-cli/LICENSE",
+      "sha256": "36159a5adc36108c13ce7987ffaf934eecddb4a3f50fef50b73103e7f3331515"
+    },
+    {
+      "name": "skills/fygo-cli/SKILL.md",
+      "sha256": "fbe52305bfd4c35ac593f914ab092529b01472927a9faf61c35bd31fcbbfee82"
+    },
+    {
+      "name": "skills/fygo-cli/THIRD_PARTY_NOTICES.txt",
+      "sha256": "3de3b3a26661a6c592d739b26510a4353df31fd57e77382837aa660f984f5edd"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-app.md",
+      "sha256": "f83ce2e8e67924b594da2c118a728fe2c8d4748f00b9048cd1ea729b940dd97f"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-docker.md",
+      "sha256": "22561acf47675d20478657050e6eaa44efcea55b31554c72a76c570308547707"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-download.md",
+      "sha256": "05502ad346bcdde6e7d40a3f1fc25c4e93bc678e6d8f69a9f3492cd6743f4ee6"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-file.md",
+      "sha256": "865b61e3eedb823cf693db5426b56b07f34c7abb7e7bd0b819fe1efb5aae323c"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-log.md",
+      "sha256": "b619d716d8de046c6327bc1e7724f64d5bdc4aa3e2e3f0d28b28b9e5e78145c2"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-monitor.md",
+      "sha256": "f25cc450273cc72ba0bf7b7d2ef8058cdfe887d9504f2f3219f73a0b245fe1b8"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-network.md",
+      "sha256": "cbfeb709064145d8b3f738dd655e5c0c8812930a3138d3fa3ab39426cca208f5"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-photos.md",
+      "sha256": "4eccb70d1cea61906b7ba94f376449b1550616e45cd8c137577739fafa116cef"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-shared.md",
+      "sha256": "4d5a30643c97e4939f200bcd9dabda97f326714a2d52fd80c0128d2647d218d7"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-storage.md",
+      "sha256": "5d7ff8c5cdd254573753c5a9417d0cf66ac93c281cd7e3fa4b9a169bcad0e7bc"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-system.md",
+      "sha256": "a4436e4a7dcec4661338e6c009df2e806b81ac46229f7432bdab2cd9b6a9abc3"
+    },
+    {
+      "name": "skills/fygo-cli/entries/trim-user.md",
+      "sha256": "1ada17bf36f144789326d15ae33d84faaa5b3e1b5665e8062762ed6ff80b3eb5"
+    },
+    {
+      "name": "skills/fygo-cli/reference/_conventions.md",
+      "sha256": "afb23bf6461377f71bb16af705f406fb07c3a2a90ca718062ec635b13c50d304"
+    },
+    {
+      "name": "skills/fygo-cli/reference/_index.md",
+      "sha256": "8457eb9105c6fe8035c2cc27eb0fb97e8f45ca231d6c013da81e02eeb4da81b0"
+    },
+    {
+      "name": "skills/fygo-cli/reference/app-center.md",
+      "sha256": "d60b3df98e6d4dc9cc42a82f0f998f711a4d554ce0d36af1c73fa4c06278c968"
+    },
+    {
+      "name": "skills/fygo-cli/reference/dockermgr.md",
+      "sha256": "1f7d64f552b2b00b8fb2b56a393e93541a7ee9e993c82d74d54bc997f1dc81c1"
+    },
+    {
+      "name": "skills/fygo-cli/reference/download.md",
+      "sha256": "3b7086ddc332832d8408bc30b861030a6902050554529f89c5ec68b0f361751b"
+    },
+    {
+      "name": "skills/fygo-cli/reference/file.md",
+      "sha256": "0a2e9c6bf438f0dc09b63e2459cd3307f579f3a182a7dc1f4fd106af5273ce5c"
+    },
+    {
+      "name": "skills/fygo-cli/reference/log.md",
+      "sha256": "7e2323d89068b74ad4fde39cfad98ec8e9cb381d3b1dcae27a29a149d2e2f4e1"
+    },
+    {
+      "name": "skills/fygo-cli/reference/network.md",
+      "sha256": "82235d7b12aee58deed07a6f8bbea12535f2ab78c4db15d1790c9fcfad1f619f"
+    },
+    {
+      "name": "skills/fygo-cli/reference/oauth.md",
+      "sha256": "bf111ae72e812a4c1be960af676b641c75627b01800e14d4d13a97750d1ba8ac"
+    },
+    {
+      "name": "skills/fygo-cli/reference/photos.md",
+      "sha256": "71f8fc7e064510961d505b539ae465745f85731561f24aa0e5551ebbaa53d74f"
+    },
+    {
+      "name": "skills/fygo-cli/reference/power.md",
+      "sha256": "2de1df255c27c73da8bad8eca129644f42d26c7992769e7ad11f8a8dc834972d"
+    },
+    {
+      "name": "skills/fygo-cli/reference/resmon.md",
+      "sha256": "6b601ce265c9d87a17825ba1a2cf57df1b0a01f68ee688244328cae40908b0cb"
+    },
+    {
+      "name": "skills/fygo-cli/reference/stor.md",
+      "sha256": "6c3227509ae74be0ceee6fc0f96baee0d3214ec031969c6c74055f9ac500c082"
+    },
+    {
+      "name": "skills/fygo-cli/reference/sysinfo.md",
+      "sha256": "f10b60edfd304491b918067f2401ee92ccee36cf6820f0c61ee25398a9573347"
+    },
+    {
+      "name": "skills/fygo-cli/reference/user.md",
+      "sha256": "8bd836d2005ae5c9cad4fdd552b7071b3fcdfcfea0f9187cc59d8f01c25671c6"
+    },
+    {
+      "name": "skills/fygo-cli/reference/workflows/device-validation.md",
+      "sha256": "b73d373617b9dbb8c08c2044ab618e540e134226f90372df609d2fec940fa1e1"
+    },
+    {
+      "name": "skills/fygo-cli/reference/workflows/file-routing.md",
+      "sha256": "a55f31c0c62796b917e32dbfcd6db0c2dad4d2a37738722f6489b6541e4ec0ce"
+    },
+    {
+      "name": "skills/fygo-cli/reference/workflows/file-upload-validation.md",
+      "sha256": "8b61cdc3e66825f6dfdafe06adfe2083795936fc04424e7d3caeb8e7bdefa9cb"
+    },
+    {
+      "name": "skills/fygo-cli/reference/workflows/photos-routing.md",
+      "sha256": "25a5301cce48bac8259f5bc62a50b989de9ff7e7c8e535e0750999746734482a"
+    },
+    {
+      "name": "skills/fygo-cli/reference/workflows/storage-dangerous-ops.md",
+      "sha256": "9eb0b0acd88578d0e83d952b50b9da6d02849001fe9a8e33862ab94a58345a1e"
+    },
+    {
+      "name": "skills/fygo-cli/runtime-manifest.json",
+      "sha256": "747cf26d1c7346ef8915577166f243e0cff53ea421d33f074a27405d0bc904fd"
+    },
+    {
+      "name": "skills/fygo-cli/runtime-setup.md",
+      "sha256": "ec612c619afa3d309bea4e38fa58638675cca88aef9c5c58e5d50c0716d63f74"
+    },
+    {
+      "name": "skills/fygo-cli/scripts/fygo-cli",
+      "sha256": "2cc4da71d47d4895d39d3cf6e4a2534fd6c324450a87e7b9698766783c67c3f3"
+    },
+    {
+      "name": "skills/fygo-cli/scripts/fygo-cli.cmd",
+      "sha256": "f8af9f65b8e304ed995d3126016de04a40711e528db3b8b5c670b769e9c17547"
+    },
+    {
+      "name": "skills/fygo-cli/scripts/fygo-cli.ps1",
+      "sha256": "9ddab14aff7694440aff502dc0f44310d592cf5037089f0e24ca95c187bb3ead"
+    }
+  ],
+  "reportSha256": "0508700315cd336d28a33740357c8bfb9792bdf3a307ab0786a31c702e710c58"
+}
