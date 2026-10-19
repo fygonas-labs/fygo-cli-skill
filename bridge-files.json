@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.5.0",
+  "version": "0.5.1",
   "files": [
     {
       "path": ".gitignore",
@@ -12,7 +12,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "cf17e201faa205701125ef68e16d39d40e8fec58c7e992f98a1e389e5a080908"
+      "sha256": "8de50b41357ef648bb5603090a58f04e995f419eaad9be5549141409b74399bf"
     },
     {
       "path": "README.md",
@@ -152,7 +152,7 @@
     },
     {
       "path": "skills/fygo-cli/runtime-manifest.json",
-      "sha256": "747cf26d1c7346ef8915577166f243e0cff53ea421d33f074a27405d0bc904fd"
+      "sha256": "96d8ec160ba5f4f680039970107ee1f99f707d9b8a759c143da88747db88ccd1"
     },
     {
       "path": "skills/fygo-cli/runtime-setup.md",
@@ -160,7 +160,7 @@
     },
     {
       "path": "skills/fygo-cli/scripts/fygo-cli",
-      "sha256": "2cc4da71d47d4895d39d3cf6e4a2534fd6c324450a87e7b9698766783c67c3f3"
+      "sha256": "72e332c022519457ba8a2de49f863b71f7d38cdd2ff02a638179865339f56fc7"
     },
     {
       "path": "skills/fygo-cli/scripts/fygo-cli.cmd",
@@ -168,19 +168,15 @@
     },
     {
       "path": "skills/fygo-cli/scripts/fygo-cli.ps1",
-      "sha256": "9ddab14aff7694440aff502dc0f44310d592cf5037089f0e24ca95c187bb3ead"
+      "sha256": "c417b0718aa6de44d211f2308c8e8c0af9eb8a257e4eff22b517e4bf8637dd05"
     },
     {
       "path": "skills/fygo-cli/SKILL.md",
       "sha256": "fbe52305bfd4c35ac593f914ab092529b01472927a9faf61c35bd31fcbbfee82"
     },
     {
-      "path": "skills/fygo-cli/THIRD_PARTY_NOTICES.txt",
-      "sha256": "3de3b3a26661a6c592d739b26510a4353df31fd57e77382837aa660f984f5edd"
-    },
-    {
       "path": "THIRD_PARTY_NOTICES.txt",
-      "sha256": "3de3b3a26661a6c592d739b26510a4353df31fd57e77382837aa660f984f5edd"
+      "sha256": "1b0d288d75ab3e202415d06b1ad2615aec97dd0954d6e669affc9b42bad89b74"
     }
   ]
 }
