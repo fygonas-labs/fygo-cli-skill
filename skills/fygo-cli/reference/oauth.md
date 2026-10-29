@@ -5,23 +5,33 @@
 - `client_id`: `YJNMPJUGA9`
 - `scope`: `trim.user.all trim.file.read trim.file.write trim.download.all trim.appcenter.all trim.photo.all trim.system.all trim.log.all trim.storage.all trim.docker.all`; product-specific scopes are described in the applicable references.
 - `code_challenge_method`: `S256`
-- device name/model: `trim-cli` / `CLI`
+- `device_model`: `CLI`; see the device naming rules below.
 - Authorization code lifetime: 5 minutes.
 
 ## Sign in
 
 ```bash
-fygo-cli --profile home --host <host> --port <port> login --authorize-only
+fygo-cli --profile home --host <host> --port <port> login --authorize-only --agent-name '<agent>'
 fygo-cli --profile home --host <host> --port <port> login --code '<code>'
 ```
 
 The Agent uses two separate calls; the user does not need a terminal:
 
 1. Confirm the user's NAS target and profile. Reuse a valid session; ask for an unknown new target.
-2. Run `login --authorize-only` and share the returned `authorization_url` unchanged as a link. `authorization_pending=true` means authorization is pending, not that login succeeded. This call does not wait for terminal input.
+2. Provide the Agent identity as described below, run `login --authorize-only --agent-name '<agent>'` and share the returned `authorization_url` unchanged as a link. `authorization_pending=true` means authorization is pending, not that login succeeded. This call does not wait for terminal input.
 3. The user opens the link, enters credentials and approves access in their browser, then sends the displayed one-time code to the Agent.
 4. Only after receiving that explicitly provided code, run `login --code '<code>'` on the same execution host, as the same system user, with the same configuration directory, profile and connection options. Pass code as a separate argument; quote it correctly in a shell, never interpolate it as shell syntax.
 5. Confirm `token_persisted=true` and `refresh_token_persisted=true`, then make a read-only request such as `system info` using that profile. Report success and continue the task only after verification.
+
+### Authorization device name
+
+When starting authorization, pass only the current Agent tool's short name with `--agent-name`: use `codex` for Codex or `claude` for Claude. Names must contain 1–32 ASCII letters, digits or hyphens, starting with a letter or digit; the CLI converts them to lowercase. If the Agent identity cannot be determined, ask the user for a name.
+
+On macOS, Linux and Windows, the CLI reads the execution environment's hostname through native system APIs, preserves its case and builds `{hostname}-{agent}`, for example `macbook-codex`. The Agent does not need to read or guess the hostname. Lookup does not depend on shell commands or hostname environment variables. In SSH sessions or containers, the hostname belongs to that execution environment. The CLI keeps at most the first 20 hostname characters (Unicode scalar values, not bytes), preserving the full Agent suffix. For example, `abcdefghijklmnopqrstuv` with `codex` becomes `abcdefghijklmnopqrst-codex`.
+
+The name appears in NAS authorization management and is saved with the profile's pending authorization. `login --code` reuses it automatically; omit naming options on that call. `--agent-name` conflicts with `--device-name`, `--code` and `--refresh`. If native lookup fails, the user can specify the full name with `--device-name` (nonblank, no control characters, at most 128 UTF-8 input bytes; surrounding whitespace is trimmed). Manual login without either naming option defaults to `fygo-cli`. The name applies to this authorization; the CLI does not proactively rename historical authorizations.
+
+### Authorization handling
 
 Do not enter passwords, click consent, or read a code from the browser on the user's behalf. Accept only the code the user actively sends. Chat and tool records, and potentially local process arguments, can retain it; do not promise no retention. Do not repeat it in replies, additionally write it to files or logs, enable shell tracing, or forward it. Access/refresh tokens and PKCE verifiers remain in CLI storage, outside chat.
 

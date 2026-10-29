@@ -21,12 +21,12 @@ On Windows, call `scripts/fygo-cli.ps1` from PowerShell 5.1 or 7; the `.cmd` ent
 
 For login, profiles, connection failures or recovery, read the [connection entry](entries/trim-shared.md) and [OAuth guide](reference/oauth.md). Read [conventions](reference/_conventions.md) for fields and the [index](reference/_index.md) for module guidance.
 
-1. The Agent runs `login --authorize-only` for the user's target and profile, then shares the returned link.
+1. The Agent runs `login --authorize-only --agent-name '<agent>'` (use `codex` for Codex) for the user's target and profile. The CLI builds `{hostname}-{agent}` automatically; share the returned link.
 2. The user signs in and authorizes in their browser, then explicitly sends the one-time code back. No user terminal is required.
 3. The Agent runs `login --code` on the same execution host, as the same system user, with the same configuration environment, profile and connection options. Confirm token persistence and a read-only request before reporting success.
 
 ```bash
-fygo-cli --profile home --host <host> --port <port> login --authorize-only
+fygo-cli --profile home --host <host> --port <port> login --authorize-only --agent-name '<agent>'
 fygo-cli --profile home --host <host> --port <port> login --code '<code>'
 fygo-cli --profile home system info
 ```
