@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "kind": "installed-cli-smoke",
+  "result": "PASS",
+  "checkedAt": "2026-10-29T11:16:03.062Z",
+  "candidate": {
+    "sha256": "6edb41c13d43adf7337a34cbbbe876e90ef3a6cbdadaf312b6d056a4a96bda4f",
+    "variant": "fygo",
+    "packageName": "@fygonas-labs/fygo-cli",
+    "commandName": "fygo-cli",
+    "skillName": "fygo-cli",
+    "locale": "en",
+    "repository": "fygonas-labs/fygo-cli-skill",
+    "version": "0.6.1",
+    "sourceCommit": "49beae832977ae4b009b4f60afcf9a7ad5a07009",
+    "sourceSha256": "2402cccb79e29993c12b2d74c71e9f2156b8a92696e9d435d64347a675b1c7fe",
+    "mode": "tagged",
+    "sourceTag": "v0.6.1",
+    "assets": [
+      {
+        "name": "fygonas-labs-fygo-cli-0.6.1.tgz",
+        "sha256": "351444821b0d0581204eda5267ccad46203e1e1a359aa565090d21e5f225366a"
+      },
+      {
+        "name": "fygo-skill.zip",
+        "sha256": "4ddfe11538060b705bc3825911abd854a0c0ebdbae5858b41481ad72231034c5"
+      },
+      {
+        "name": "fygo-cli-0.6.1-darwin-arm64.gz",
+        "sha256": "de90f0e348f3f3b8a1b52aab3d01524a57d1bc144b42bea1a728cfed2d69108b"
+      },
+      {
+        "name": "fygo-cli-0.6.1-darwin-x64.gz",
+        "sha256": "91a782e094f601e11515ec3786374fc68be404f9dcad28e3b48f083d40666ec4"
+      },
+      {
+        "name": "fygo-cli-0.6.1-linux-arm64.gz",
+        "sha256": "7a5b8a7f4ff9c7986336a5fa14dabedbf7b571e4a05f6f28fe98486f7812c708"
+      },
+      {
+        "name": "fygo-cli-0.6.1-linux-x64.gz",
+        "sha256": "c5f7693a8e50b7f7404d098af572079b9b60076c2a6af9aecbfff0f73cc08f00"
+      },
+      {
+        "name": "fygo-cli-0.6.1-windows-arm64.gz",
+        "sha256": "0124583c8153fe103276732935526971325943bf67a7cb375c999953d94a71e1"
+      },
+      {
+        "name": "fygo-cli-0.6.1-windows-x64.gz",
+        "sha256": "9bfd24af44d15230129f565756d322edecaf4f38f46c15312dd6274af60452d7"
+      }
+    ]
+  },
+  "environment": {
+    "platform": "linux",
+    "arch": "x64",
+    "machine": "x86_64",
+    "release": "6.18.18.c1126-trim",
+    "node": "v24.22.2",
+    "npm": "11.19.1",
+    "tools": {
+      "node": "/usr/local/bin/node",
+      "npm": "/usr/local/bin/npm",
+      "unzip": "/usr/bin/unzip"
+    }
+  },
+  "ci": {
+    "pipelineId": "11796",
+    "jobId": "36585",
+    "runnerId": "55",
+    "runnerArchitecture": "linux/amd64",
+    "commit": "49beae832977ae4b009b4f60afcf9a7ad5a07009"
+  },
+  "publicSkill": {
+    "tool": "skills@1.7.2",
+    "filesCompared": 39,
+    "result": "PASS",
+    "execution": "passed: independent launcher cold download and hot cache without Node/npm on PATH"
+  },
+  "checks": [
+    "installed-shim-version",
+    "installed-shim-help",
+    "installed-skill",
+    "product-boundary",
+    "native-version-source",
+    "public-skill-installer",
+    "cold-host-download",
+    "hot-cache-reuse",
+    "standalone-skill-runtime",
+    "public-skill-runtime"
+  ],
+  "notVerified": [
+    "NAS/device operations",
+    "OAuth authorization",
+    "npm registry installation",
+    "live GitHub/npm binary mirror availability",
+    "other CPU architectures"
+  ]
+}
