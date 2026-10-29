@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.5.1",
+  "version": "0.6.0",
   "files": [
     {
       "path": ".gitignore",
@@ -12,7 +12,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "8de50b41357ef648bb5603090a58f04e995f419eaad9be5549141409b74399bf"
+      "sha256": "da31f3a569d099e996c61d73ef7bb71c328ccc81e63cc5521c588252698999dc"
     },
     {
       "path": "README.md",
@@ -104,7 +104,7 @@
     },
     {
       "path": "skills/fygo-cli/reference/oauth.md",
-      "sha256": "bf111ae72e812a4c1be960af676b641c75627b01800e14d4d13a97750d1ba8ac"
+      "sha256": "c48cd30bd9559cda0adeb5a9041e75fb5ae5a92c43d43edbf5928d7126fea6ed"
     },
     {
       "path": "skills/fygo-cli/reference/photos.md",
@@ -152,7 +152,7 @@
     },
     {
       "path": "skills/fygo-cli/runtime-manifest.json",
-      "sha256": "96d8ec160ba5f4f680039970107ee1f99f707d9b8a759c143da88747db88ccd1"
+      "sha256": "a7b26b8c6b61e4395435878072d0124a1ec2e379f44096c76b2d7bacfbe1cb31"
     },
     {
       "path": "skills/fygo-cli/runtime-setup.md",
@@ -160,7 +160,7 @@
     },
     {
       "path": "skills/fygo-cli/scripts/fygo-cli",
-      "sha256": "72e332c022519457ba8a2de49f863b71f7d38cdd2ff02a638179865339f56fc7"
+      "sha256": "47c7becce2ffe3ff62004afa5fb26587b065da4ddea121ee44d03dc1e964bbd2"
     },
     {
       "path": "skills/fygo-cli/scripts/fygo-cli.cmd",
@@ -168,15 +168,15 @@
     },
     {
       "path": "skills/fygo-cli/scripts/fygo-cli.ps1",
-      "sha256": "c417b0718aa6de44d211f2308c8e8c0af9eb8a257e4eff22b517e4bf8637dd05"
+      "sha256": "a07281398c284c32972894df441123ac1c9e6d3bd3636ba08fbb84d38dd461cf"
     },
     {
       "path": "skills/fygo-cli/SKILL.md",
-      "sha256": "fbe52305bfd4c35ac593f914ab092529b01472927a9faf61c35bd31fcbbfee82"
+      "sha256": "a7e252f8c7e68ffc96adfec8d86d868bfb6e60a3d24855ec8d02b24c0885569d"
     },
     {
       "path": "THIRD_PARTY_NOTICES.txt",
-      "sha256": "1b0d288d75ab3e202415d06b1ad2615aec97dd0954d6e669affc9b42bad89b74"
+      "sha256": "f0d2ba1b1ea276ef1dd3e87c978db302aeb4df3dd814c0996babe805c41d4e24"
     }
   ]
 }
