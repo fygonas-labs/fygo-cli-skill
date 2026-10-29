@@ -27,7 +27,7 @@ Start with [the Skill](../SKILL.md) and [the usage index](../reference/_index.md
   asks the user before a lower-trust file fallback after secure-storage failure.
 - OAuth PKCE is the login flow. The user handles credentials and 2FA in the browser.
 - Agent login follows `../reference/oauth.md`: generate the link with
-  `login --authorize-only`, wait for the user's browser authorization and returned
+  `login --authorize-only --agent-name '<agent>'`, wait for the user's browser authorization and returned
   code, then exchange it with `login --code`. The user needs no terminal.
 - Log in on the same Host, system user and configuration environment,
   with the same `--profile`. Sessions do not automatically transfer to remote
@@ -51,7 +51,7 @@ The Agent runs the two login calls separately, waiting for the user-provided cod
 between them and keeping the same target and profile:
 
 ```bash
-fygo-cli --profile home --host <host> --port <port> login --authorize-only
+fygo-cli --profile home --host <host> --port <port> login --authorize-only --agent-name '<agent>'
 fygo-cli --profile home --host <host> --port <port> login --code '<code>'
 fygo-cli --profile home system info
 ```

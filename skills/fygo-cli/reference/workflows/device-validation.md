@@ -6,7 +6,7 @@ Use this workflow for Agent-assisted OAuth, minimal probes and read-after-write 
 
 Follow `../oauth.md` for Agent-assisted OAuth PKCE:
 
-1. The Agent runs `fygo-cli --profile <profile> --host <host> --port <port> login --authorize-only`.
+1. The Agent runs `fygo-cli --profile <profile> --host <host> --port <port> login --authorize-only --agent-name '<agent>'`.
 2. Share the returned authorization link with the user; wait for their reply.
 3. The user opens the link, signs in and approves access in the browser.
 4. The user sends the one-time code back to the Agent, without opening a terminal.

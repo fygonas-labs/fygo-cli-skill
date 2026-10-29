@@ -18,7 +18,7 @@ On Windows, call `scripts/fygo-cli.ps1` from PowerShell 5.1 or 7; the `.cmd` ent
 
 ## Authorize and use
 
-Start with [the Skill](skills/fygo-cli/SKILL.md). The Agent runs `login --authorize-only` and shares a link. Sign in and authorize in your browser, then explicitly return the one-time code. The Agent preserves target, profile and execution environment, runs `login --code`, verifies token persistence and makes a read-only request. No user terminal is needed; never provide passwords or tokens. Follow the [OAuth guide](skills/fygo-cli/reference/oauth.md).
+Start with [the Skill](skills/fygo-cli/SKILL.md). The Agent runs `login --authorize-only --agent-name '<agent>'` and shares a link. Sign in and authorize in your browser, then explicitly return the one-time code. The Agent preserves target, profile and execution environment, runs `login --code`, verifies token persistence and makes a read-only request. No user terminal is needed; never provide passwords or tokens. Follow the [OAuth guide](skills/fygo-cli/reference/oauth.md).
 
 ## License
 

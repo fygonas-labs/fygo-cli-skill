@@ -1,6 +1,6 @@
 {
   "name": "fygo-cli-skill",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "private": true,
   "description": "Fygo CLI Skill",
   "license": "MIT",

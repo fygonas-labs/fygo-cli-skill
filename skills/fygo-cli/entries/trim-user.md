@@ -15,7 +15,7 @@ Read `../reference/user.md` and `../reference/workflows/device-validation.md`.
 - OAuth PKCE login leaves credentials and 2FA to the user; never construct
   password, 2FA or manual access-token login commands.
 - When authorization is needed, read `../reference/oauth.md`. The Agent generates
-  a link with `login --authorize-only`; the user authorizes in the browser and
+  a link with `login --authorize-only --agent-name '<agent>'`; the user authorizes in the browser and
   sends the one-time code back; the Agent exchanges it with `login --code` in the
   same environment, profile and connection options. Verify token persistence and
   a read-only request before continuing. The user needs no terminal; ordinary
@@ -26,7 +26,7 @@ Read `../reference/user.md` and `../reference/workflows/device-validation.md`.
 ## Commands
 
 ```bash
-fygo-cli --profile home --host <host> --port <port> login --authorize-only
+fygo-cli --profile home --host <host> --port <port> login --authorize-only --agent-name '<agent>'
 ```
 
 After the user sends the code, follow the OAuth guide to complete authorization:

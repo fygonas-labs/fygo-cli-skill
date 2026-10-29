@@ -259,7 +259,7 @@ try {
     $Platform = switch ($Architecture.ToUpperInvariant()) { 'AMD64' { 'windows-x64' } 'ARM64' { 'windows-arm64' } default { throw 'Unsupported Windows execution architecture.' } }
     $ManifestPath = Join-Path $PSScriptRoot '..\runtime-manifest.json'
     Assert-RegularPath $ManifestPath $false
-    if ((File-Hash $ManifestPath) -ne 'a7b26b8c6b61e4395435878072d0124a1ec2e379f44096c76b2d7bacfbe1cb31') { throw 'The fixed runtime manifest is missing or changed. Reinstall this Skill.' }
+    if ((File-Hash $ManifestPath) -ne '2faa224d2834330caf95ecd4b317f3497bbc21d205a6ed115c86a3494ee85f9b') { throw 'The fixed runtime manifest is missing or changed. Reinstall this Skill.' }
     $Manifest = [IO.File]::ReadAllText($ManifestPath) | ConvertFrom-Json
     $Asset = $Manifest.assets.$Platform
     $LocalData = $env:LOCALAPPDATA

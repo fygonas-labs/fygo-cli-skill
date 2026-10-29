@@ -7,7 +7,7 @@ fygo-cli establishes a proxy session using OAuth 2.0 Authorization Code + PKCE. 
 Agents use two-step authorization; read `oauth.md` for boundaries and failure handling:
 
 ```bash
-fygo-cli --profile home --host <host> --port <port> login --authorize-only
+fygo-cli --profile home --host <host> --port <port> login --authorize-only --agent-name '<agent>'
 fygo-cli --profile home --host <host> --port <port> login --code '<code>'
 ```
 
@@ -119,7 +119,7 @@ Signed-in-device lists are user-management data, not part of CLI OAuth PKCE logi
 ## Errors
 
 - `saved proxy session is required`: complete OAuth login first.
-- Missing or expired OAuth pending state: follow `oauth.md`, run `login --authorize-only` again, and wait for a new user-supplied code before exchanging. Do not retry the old code.
+- Missing or expired OAuth pending state: follow `oauth.md`, run `login --authorize-only --agent-name <agent>` again, and wait for a new user-supplied code before exchanging. Do not retry the old code.
 - Refresh failure or missing refresh token: restart OAuth login without falling back to username/password.
 - Final session write failure after refresh: do not blindly reuse the old refresh token; it may have rotated. Sign in again.
 - Permission errors: use `user info` to inspect `admin`; do not automatically elevate privileges.
