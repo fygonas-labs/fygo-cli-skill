@@ -1,9 +1,10 @@
 {
   "name": "fygo-cli-skill",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "private": true,
   "description": "Fygo CLI Skill",
   "license": "MIT",
+  "homepage": "https://fygonas.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/fygonas-labs/fygo-cli-skill.git"

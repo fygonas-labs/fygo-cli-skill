@@ -2,6 +2,8 @@
 
 Usage guidance and public integration content for Fygo. The runtime CLI and Skill come from the same npm package version.
 
+Learn more about Fygo NAS at the [Fygo official website](https://fygonas.com/).
+
 ## Install the Skill
 
 ```bash
